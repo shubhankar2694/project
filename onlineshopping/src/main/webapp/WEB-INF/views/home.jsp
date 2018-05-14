@@ -58,7 +58,7 @@
 
 				<div class="row">
                 	<div class="col-xs-12">
-                		<h3>Our Most Viewed Products</h3>
+                		<h3>Trending</h3>
                 		<hr/>
                 	</div>
                 </div>
@@ -80,7 +80,7 @@
                     </div>
 
                     <div class="col-sm-4 col-lg-4 col-md-4">
-                        <h4>Checkout more products!</h4>
+                        <h4>More</h4>
                         <hr/>
                         <a class="btn btn-primary" href="${contextRoot}/show/all/products">More Products</a>
                     </div>
@@ -89,7 +89,7 @@
 				
 				<div class="row">
                 	<div class="col-xs-12">
-                		<h3>Our Most Purchased Products</h3>
+                		<h3>Best Sellers</h3>
                 		<hr/>
                 	</div>
                 </div>
@@ -109,7 +109,7 @@
                     </div>
 
                     <div class="col-sm-4 col-lg-4 col-md-4">
-                        <h4>Checkout more products!</h4>
+                        <h4>More</h4>
                         <hr/>
                         <a class="btn btn-primary" href="${contextRoot}/show/all/products">More Products</a>
                     </div>

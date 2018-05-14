@@ -12,11 +12,15 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="${contextRoot}/home">Online Shopping</a>
+                <a class="navbar-brand" href="${contextRoot}/home">Instrumentos</a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
+                     <li id="listProducts">
+                        <a href="${contextRoot}/show/all/products">All Instruments</a>
+                    </li>
+                    
                     <li id="about">
                         <a href="${contextRoot}/about">About</a>
                     </li>
@@ -25,12 +29,10 @@
                         <a href="${contextRoot}/contact">Contact</a>
                     </li>
                     
-                    <li id="listProducts">
-                        <a href="${contextRoot}/show/all/products">View Products</a>
-                    </li>
+                   
 					<security:authorize access="hasAuthority('ADMIN')">
 	                    <li id="manageProduct">
-	                        <a href="${contextRoot}/manage/product">Manage Product</a>
+	                        <a href="${contextRoot}/manage/product">Manage</a>
 	                    </li>					
 					</security:authorize>
                 </ul>

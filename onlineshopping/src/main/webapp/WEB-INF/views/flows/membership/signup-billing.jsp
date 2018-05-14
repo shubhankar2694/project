@@ -7,9 +7,10 @@
 			
 			<div class="col-md-6 col-md-offset-3">
 				
-				<div class="panel panel-primary">
-				
-					<div class="panel-heading">
+				<div class="panel panel-primary" style="background-color: transparent ; border: none">
+       
+       <div class="panel-heading" style="background-color:rgba(192,192,192,0.4); color: black ; border: none">
+        
 						<h4>Sign Up - Address</h4>
 					</div>
 					

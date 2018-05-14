@@ -19,13 +19,13 @@
 <meta name="description" content="">
 <meta name="author" content="">
 
-<title>Online Shopping - ${title}</title>
+<title>Instrumentos - ${title}</title>
 
 <!-- Bootstrap Core CSS -->
 <link href="${css}/bootstrap.min.css" rel="stylesheet">
 
 <!-- Bootstrap Readable Theme -->
-<link href="${css}/bootstrap-readable-theme.css" rel="stylesheet">
+<link href="${css}/bootstrap.min.css" rel="stylesheet">
 
 
 <!-- Custom CSS -->
@@ -54,7 +54,7 @@
 	        <div class="container">
 	            <!-- Brand and toggle get grouped for better mobile display -->
 	            <div class="navbar-header">
-	                <a class="navbar-brand" href="${contextRoot}/home">Online Shopping</a>
+	                <a class="navbar-brand" href="${contextRoot}/home">Instrumentos</a>
 	            </div>
 			</div>
 		</nav>		
@@ -83,11 +83,11 @@
        
     <div class="row">
      
-     <div class="col-md-offset-3 col-md-6">
+     <div class="col-md-offset-3 col-md-6" >
       
-      <div class="panel panel-primary">
+      <div class="panel panel-primary" style="background-color: transparent; border: none">
        
-       <div class="panel-heading">
+       <div class="panel-heading" style="background-color:rgba(192,192,192,0.4); color: black ; border: none">
         <h4>Login</h4>
        </div>
        
@@ -118,7 +118,7 @@
        </div>
        <div class="panel-footer">
        	<div class="text-right">
-       		New User - <a href="${contextRoot}/register">Register Here</a>
+       		New User - <a href="${contextRoot}/membership">Register Here</a>
        	</div>
        </div>
       

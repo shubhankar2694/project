@@ -19,7 +19,7 @@
 <meta name="description" content="">
 <meta name="author" content="">
 
-<title>Online Shopping - Membership</title>
+<title>Instrumentos- Membership</title>
 
 <script>
 
@@ -31,7 +31,7 @@
 <link href="${css}/bootstrap.min.css" rel="stylesheet">
 
 <!-- Bootstrap Readable Theme -->
-<link href="${css}/bootstrap-readable-theme.css" rel="stylesheet">
+<link href="${css}/bootstrap.min.css" rel="stylesheet">
 
 
 <!-- Bootstrap DataTables -->
@@ -58,7 +58,7 @@
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
            <div class="navbar-header">
-               <a class="navbar-brand" href="${contextRoot}/home">Online Shopping</a>
+               <a class="navbar-brand" href="${contextRoot}/home">Instrumentos</a>
            </div>
 		</div>
 	</nav>

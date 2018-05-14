@@ -1,5 +1,7 @@
 <%@include file="../flows-shared/header.jsp" %>
-<%@taglib prefix="sf" uri="http://www.springframework.org/tags/form" %>			
+<%@taglib prefix="sf" uri="http://www.springframework.org/tags/form" %>		
+
+<title>Instrumentos - ${title}</title>	
 	<div class="container">
 		
 		
@@ -7,9 +9,10 @@
 			
 			<div class="col-md-6 col-md-offset-3">
 				
-				<div class="panel panel-primary">
-				
-					<div class="panel-heading">
+				<div class="panel panel-primary" style="background-color: transparent ; border: none">
+       
+       <div class="panel-heading" style="background-color:rgba(192,192,192,0.4); color: black ; border: none">
+        
 						<h4>Sign Up - Personal</h4>
 					</div>
 					
@@ -45,7 +48,7 @@
 							<div class="form-group">
 								<label class="control-label col-md-4">Email</label>
 								<div class="col-md-8">
-									<sf:input type="text" path="email" class="form-control"
+									<sf:input type="email" path="email" class="form-control"
 										placeholder="abc@zyx.com" />
 									<sf:errors path="email" cssClass="help-block" element="em"/> 									
 								</div>
@@ -55,7 +58,7 @@
 								<label class="control-label col-md-4">Contact Number</label>
 								<div class="col-md-8">
 									<sf:input type="text" path="contactNumber" class="form-control"
-										placeholder="XXXXXXXXXX" maxlength="10" />
+										placeholder="XXXXXXXXXX" minlength="10" maxlength="10" />
 									<sf:errors path="contactNumber" cssClass="help-block" element="em"/> 
 								</div>
 							</div>

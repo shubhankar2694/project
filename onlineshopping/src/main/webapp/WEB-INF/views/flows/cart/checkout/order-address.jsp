@@ -12,10 +12,10 @@
 				<div class="row">
 					<c:forEach items="${addresses}" var="address">					
 						<div class="cols-xs-12">
-							<h3>${address.addressLineOne}</h3>
-							<h3>${address.addressLineTwo}</h3>
-							<h4>${address.city} - ${address.postalCode}</h4>
-							<h4>${address.state} - ${address.country}</h4>
+							<p style="font-size: medium">${address.addressLineOne}
+							${address.addressLineTwo} <br>
+							${address.city} - ${address.postalCode} <br> 
+							${address.state} - ${address.country}</p>
 							<hr/>
 							<div class="text-center">
 								<a href="${flowExecutionUrl}&_eventId_addressSelection&shippingId=${address.id}" class="btn btn-primary">Select</a>
@@ -30,9 +30,10 @@
 			<div class="col-md-8">
 			
 				
-				<div class="panel panel-primary">
-				
-					<div class="panel-heading">
+				<div class="panel panel-primary" style="background-color: transparent ; border: none">
+       
+       <div class="panel-heading" style="background-color:rgba(192,192,192,0.4); color: black ; border: none">
+        
 						<h4>Sign Up - Address</h4>
 					</div>
 					

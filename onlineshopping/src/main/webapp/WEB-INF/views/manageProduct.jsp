@@ -1,5 +1,5 @@
 <%@taglib prefix="sf" uri="http://www.springframework.org/tags/form" %>
-
+<%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>	
 <div class="container">
 
 	<c:if test="${not empty message}">	
@@ -14,10 +14,10 @@
 
 		<div class="col-md-offset-2 col-md-8">
 
-			<div class="panel panel-primary">
-
-				<div class="panel-heading">
-
+			<div class="panel panel-primary" style="background-color: transparent; border: none">
+       
+       <div class="panel-heading" style="background-color:rgba(192,192,192,0.4); color: black ; border: none">
+      
 					<h4>Product Management</h4>
 
 				</div>
@@ -118,14 +118,17 @@
 	</div>
 
 	<!-- Modal -->
-	<div class="modal fade" id="myCategoryModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	<div class="modal fade" id="myCategoryModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" style="background-color: transparent; border: none">
 	  <div class="modal-dialog" role="document">
 	    <div class="modal-content">
 	      <div class="modal-header">
 	        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
 	        <h4 class="modal-title" id="myModalLabel">New Category</h4>
 	      </div>
-	      <div class="modal-body">
+	      
+	   
+	      
+	      <div class="modal-body" style="background-color: transparent; border: none">
 	        
 	        <sf:form id="categoryForm" class="form-horizontal" modelAttribute="category" action="${contextRoot}/manage/category" method="POST">
 	        	

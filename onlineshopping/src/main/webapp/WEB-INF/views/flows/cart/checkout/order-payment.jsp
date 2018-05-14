@@ -27,8 +27,10 @@
 			</div>
 			
 			<div class="col-md-6">
-	            <div class="panel panel-default">
-	                <div class="panel-heading">
+	            <div class="panel panel-primary" style="background-color: transparent ; border: none">
+       
+       <div class="panel-heading" style="background-color:rgba(192,192,192,0.4); color: black ; border: none">
+        
 	                    <h3 class="panel-title">
 	                        Payment Details
 	                    </h3>
@@ -59,7 +61,7 @@
 	                        <div class="col-xs-5 col-md-5 pull-right">
 	                            <div class="form-group">
 	                                <label for="cvCode">
-	                                    CV CODE</label>
+	                                    CVV CODE</label>
 	                                <input type="password" class="form-control" id="cvCode" placeholder="CV" required />
 	                            </div>
 	                        </div>
@@ -71,7 +73,8 @@
 	                <li class="active"><a href="#"><span class="badge pull-right"> &#8377; ${checkoutModel.checkoutTotal}/-</span> Final Payment</a></li>
 	            </ul>
 	            <br/>
-	            <a href="${flowExecutionUrl}&_eventId_pay" class="btn btn-success btn-lg btn-block" role="button">Pay</a>
+	            <a href="${flowExecutionUrl}&_eventId_pay" class="btn btn-success btn-lg btn-block" role="button">Pay Via Card</a>
+			 <a href="${flowExecutionUrl}&_eventId_pay" class="btn btn-success btn-lg btn-block" role="button">Cash On Delivery</a>
 			
 			</div>
 

@@ -17,11 +17,11 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="Online Shopping Website Using Spring MVC and Hibernate">
-<meta name="author" content="Khozema Nullwala">
+<meta name="author" content="SMS">
 <meta name="_csrf" content="${_csrf.token}">
 <meta name="_csrf_header" content="${_csrf.headerName}">
 
-<title>Online Shopping - ${title}</title>
+<title>Instrumentos - ${title}</title>
 
 <script>
 	window.menu = '${title}';
@@ -34,7 +34,7 @@
 <link href="${css}/bootstrap.min.css" rel="stylesheet">
 
 <!-- Bootstrap Readable Theme -->
-<link href="${css}/bootstrap-readable-theme.css" rel="stylesheet">
+<link href="${css}/bootstrap.min.css" rel="stylesheet">
 
 
 <!-- Bootstrap DataTables -->
@@ -54,7 +54,8 @@
 </head>
 
 <body>
-	
+
+ 
 	<div class="se-pre-con"></div>
 	<div class="wrapper">
 
