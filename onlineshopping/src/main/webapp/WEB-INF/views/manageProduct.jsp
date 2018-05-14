@@ -93,7 +93,7 @@
 									<button type="button" class="btn btn-warning btn-xs" data-toggle="modal" data-target="#myCategoryModal">Add New Category</button>
 								</div>							
 							</div>
-							
+						
 						</div>
 
 
