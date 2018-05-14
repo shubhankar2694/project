@@ -83,7 +83,7 @@
 							<label class="control-label col-md-4">Category</label>
 							<div class="col-md-8">
 								<sf:select path="categoryId" items="${categories}" itemLabel="name" itemValue="id" class="form-control"/>
-							
+			 				
 								<div class="text-right">
 									<br/>			
 									<sf:hidden path="id"/>
